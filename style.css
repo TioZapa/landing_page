@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+}
+#principal{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60em;
+    padding-bottom: 50px;
+}
+.secao-cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+.secao-cabecalho img{
+    border-radius: 50%;
+    height: 80px;
+}
+.secao-cabecalho nav{
+    display: flex;
+    gap: 32px;
+    padding-right: 30px;
+    padding-top: 40px;
+}
+.secao-cabecalho nav a{
+    color: #8E8A8A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.secao-img{
+    background: url(certificado2.jpg);
+    background-repeat: space;
+    height: 80vh;
+    position: relative;
+}
+.secao-exibicao{
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px rgb(150, 149, 149);
+    padding: 30px;
+    background: rgba(70, 99, 141, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-size: 36px;
+    border-radius: 25px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.secao-informacao{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 24px 0px;
+}
+.secao-informacao div{
+    text-align: center;
+    width:200px;
+}
+.secao-informacao a{
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #41E8BC;
+}
+.secao-informacao p{
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.secao-informacao img{
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.secao-espaco{
+    background-color: #41E8BC;
+    height: 130px;
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 48px;
+    color: #38be9b;
+    padding: 15PX 0PX;
+}
+.secao-blog{
+    padding: 10px 15px;
+    display: flex;
+    font-family: sans-serif;
+    flex-direction: row;
+    align-items: baseline;
+    height: 700px;
+}
+.secao-blog a{
+    font-size: 35px;
+    font-weight: 700;
+    color: #38be9b;
+    border-right: 2px solid #8E8A8A;
+}
+.secao-blog p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding: 5px;
+}
+.secao-rodape{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.secao-rodape > img{
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+.secao-rodape li img{
+    border-radius: 10px;
+}
+footer{
+    border-right: 2px solid #8E8A8A;
+    width: 500px;
+}
+a:hover{
+    text-decoration: underline;
+}
+a img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.2);
+}
+.secao-rodape ul img{
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 5px;
+
+}
